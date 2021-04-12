@@ -1,0 +1,83 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url(font/Poppins-SemiBold.otf);
+}
+body {
+  background-image: url(cards/casino\ table.jpg);
+}
+
+.title {
+  font-size: 45px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Poppins-SemiBold';
+  text-align: center;
+}
+
+.row {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+
+.column {
+  text-align: center;
+  display: table-cell;
+}
+
+.column img {
+  border-radius: 15px;
+}
+
+.buttons {
+  display: inline-block;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.decision {
+  height: 100px;
+}
+
+.decision h1 {
+  padding-top: 10px;
+  font-family: 'Poppins-SemiBold';
+  font-size: 50px;
+}
+
+#decision {
+  color: #ffdd00;
+  text-transform: uppercase;
+  text-align: center;
+}
+#btn-drawCards {
+  color: white;
+  margin-right: 15px;
+  font-size: 15px;
+  background-color: #ffdd00;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 8px;
+}
+
+#btn-shuffle {
+  color: white;
+  font-size: 15px;
+  background-color: #4caf50;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 8px;
+}
